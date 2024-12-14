@@ -85,10 +85,13 @@ def start(args=None):
             print("Error, classification model does not exists")
 
 if __name__ == "__main__":
-    e = 0
-    k = 0 
-    for i in range(10):
-        with open ('resultados escenario 0 v2 .txt', 'a') as f:
-            k += 1
-            print(f"Escenario {e} , iteracion {k} \n", file=f)
-        start()
+    start()
+    
+# if __name__ == "__main__":
+#     e = 0
+#     k = 0 
+#     for i in range(10):
+#         with open ('resultados escenario 0 v2 .txt', 'a') as f:
+#             k += 1
+#             print(f"Escenario {e} , iteracion {k} \n", file=f)
+#         start()
