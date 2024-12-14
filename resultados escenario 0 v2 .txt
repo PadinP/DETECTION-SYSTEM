@@ -1,0 +1,52 @@
+Escenario 0 , iteracion 1 
+
+Escenario 0 , iteracion 2 
+
+Escenario 0 , iteracion 3 
+
+Escenario 0 , iteracion 4 
+
+Escenario 0 , iteracion 5 
+
+Escenario 0 , iteracion 6 
+
+Escenario 0 , iteracion 7 
+
+Escenario 0 , iteracion 8 
+
+Escenario 0 , iteracion 9 
+
+Escenario 0 , iteracion 10 
+
+Escenario 0 , iteracion 1 
+
+Escenario 0 , iteracion 1 
+
+Escenario 0 , iteracion 1 
+
+Escenario 0 , iteracion 2 
+
+Escenario 0 , iteracion 3 
+
+Escenario 0 , iteracion 4 
+
+Escenario 0 , iteracion 5 
+
+Escenario 0 , iteracion 6 
+
+Escenario 0 , iteracion 7 
+
+Escenario 0 , iteracion 8 
+
+Escenario 0 , iteracion 9 
+
+Escenario 0 , iteracion 10 
+
+Escenario 0 , iteracion 1 
+
+Escenario 0 , iteracion 1 
+
+Escenario 0 , iteracion 1 
+
+Escenario 0 , iteracion 1 
+
