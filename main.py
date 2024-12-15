@@ -15,7 +15,7 @@ def start(args=None):
     print("8. Support Vector Machines")
     print("------------------------------------\n")
 
-    option = '7'  # input("Enter your option: ")
+    option = '6'  # input("Enter your option: ")
 
     print('Scenarios range from 0 to 13\n')
     e = '0'  # input("Pick the scenery you want to use: ")

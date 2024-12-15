@@ -46,13 +46,13 @@ def normalize_bitnetflow(file_path, output_path):
             )
             f.write(line)
 
-    print(f"Archivo bitnetflow normalizado creado exitosamente en: {
+    print(f"Archivo binetflow normalizado creado exitosamente en: {
           output_path}")
 
 
 # Ejemplo de uso de la función
-file_path = "database/3.bitnetflow"
-output_path = "database/0.bitnetflow"
+file_path = "database/3.binetflow"
+output_path = "database/0.binetflow"
 normalize_bitnetflow(file_path, output_path)
 
 
