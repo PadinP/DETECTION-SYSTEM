@@ -37,10 +37,12 @@ class LogFeatureSelection(FeatureSelection):
         :param prob: <list> Probabilities of those features
         :return: <list>
         """
-        sample_size = int(np.math.floor(np.math.log2(n_features)) + 1)
+        sample_size = int(np.floor(np.log2(n_features)) + 1)
         population = list(range(n_features))
-        selected = np.random.choice(population, replace=False, size=sample_size, p=prob)
+        selected = np.random.choice(
+            population, replace=False, size=sample_size, p=prob)
         return selected
+
 
 class SqrtFeatureSelection(FeatureSelection):
     @property
@@ -55,10 +57,12 @@ class SqrtFeatureSelection(FeatureSelection):
         :param prob: <list> Probabilities of those features
         :return: <list>
         """
-        sample_size = int(np.math.floor(np.math.sqrt(n_features)))
+        sample_size = int(np.floor(np.sqrt(n_features)))
         population = list(range(n_features))
-        selected = np.random.choice(population, replace=False, size=sample_size, p=prob)
+        selected = np.random.choice(
+            population, replace=False, size=sample_size, p=prob)
         return selected
+
 
 class ProbFeatureSelection(FeatureSelection):
     @property
@@ -76,7 +80,8 @@ class ProbFeatureSelection(FeatureSelection):
         """
         sample_size = n_features
         population = list(range(n_features))
-        selected = np.random.choice(population, replace=True, size=sample_size, p=prob)
+        selected = np.random.choice(
+            population, replace=True, size=sample_size, p=prob)
         return np.unique(selected)
 
 
@@ -93,7 +98,7 @@ def resolve_feature_selection(name):
         return LogFeatureSelection()
     elif name == 'prob':
         return ProbFeatureSelection()
-    elif name == 'sqrt' :
-    	return SqrtFeatureSelection()
+    elif name == 'sqrt':
+        return SqrtFeatureSelection()
     else:
         raise ValueError('Unknown feature selection criterion {}'.format(name))
