@@ -35,8 +35,8 @@ class RFClassifier(RandomForestClassifier):
 
     def prepareData(self, cross_val=True):
         print(self.escenario)
-        # data = './database/*[0123456789].binetflow'
-        data = './database/0.binetflow'
+        data = './database/*[0123456789].binetflow'
+        # data = './database/0.binetflow'
         scalers = {'minmax'}  # {'standard', 'minmax', 'robust', 'max-abs'}
         # 'under_sampling', 'over_sampling', 'smote', 'svm-smote' 'adasyn'
         samplers = ['smote']

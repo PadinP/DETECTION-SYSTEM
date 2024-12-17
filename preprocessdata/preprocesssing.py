@@ -58,6 +58,8 @@ def preprocessing(data, scalers, samplers):
                 else:
                     X_balanced, y_balanced = class_balance(
                         sampler=sampler, data_x=X_trans, data_y=y).sampling()
+                    print(f"Datos balanceados: X_balanced shape: {
+                          X_balanced.shape}, y_balanced length: {len(y_balanced)}")
                     with open(name_sampled_data, 'wb') as file:
                         pickle.dump(
                             [np.array(X_balanced), np.array(y_balanced)], file)
