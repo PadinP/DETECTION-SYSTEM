@@ -1,0 +1,12 @@
+The final cross_val score is:
+Accuracy: 95.53999999999999
+Recall: 98.26369993605081
+F1: 95.65727208294587
+Precision:  93.19325886063612 
+
+The final cross_val score is:
+Accuracy: 95.62
+Recall: 98.11819769313229
+F1: 95.72625180440411
+Precision:  93.44929133702927 
+

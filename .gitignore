@@ -1,0 +1,9 @@
+# Ignorar configuración del entorno de desarrollo
+.idea/
+
+# Ignorar archivos de caché de Python
+__pycache__/
+mlcomponent/__pycache__/
+
+# Ignorar resultados específicos del proyecto
+resultados escenario 0 v2.txt
