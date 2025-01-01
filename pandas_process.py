@@ -55,6 +55,13 @@ def normalize_bitnetflow(file_path, output_path):
 
 
 # Ejemplo de uso de la función
-file_path = "database/otras/flow_analysis.binetflow"
-output_path = "database/0.binetflow"
+#general
+# file_path = "database/otras/flow_analysis.binetflow"
+# output_path = "database/0.binetflow"
+
+#especifico
+file_path = "database/otras/flow_analysis_31_12_24.binetflow"
+output_path = "database/1.binetflow"
+
+
 normalize_bitnetflow(file_path, output_path)
