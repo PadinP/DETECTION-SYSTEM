@@ -139,9 +139,9 @@ class class_balance:
     def sampling(self):
         sampling_method = {'under_sampling': RandomUnderSampler(),
                            'over_sampling': RandomOverSampler(),
-                           'smote': SMOTE(n_jobs=-1, k_neighbors=10, random_state=2022),
-                           'svm-smote': SVMSMOTE(n_jobs=-1),
-                           'adasyn': ADASYN(n_jobs=-1)
+                           'smote': SMOTE( k_neighbors=10, random_state=2022),
+                           'svm-smote': SVMSMOTE(),
+                           'adasyn': ADASYN()
                            }
         X_balanced, y_balanced = sampling_method[self.sampler].fit_resample(self.X, self.y)
 
