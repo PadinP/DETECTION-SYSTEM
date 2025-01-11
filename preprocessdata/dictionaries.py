@@ -2,7 +2,7 @@ dirDict = {'   ->': 1, '   ?>': 2, '  <->': 3, '  <?>': 4, '  who': 5, '  <-': 6
 
 protoDict_0  = {'tcp': 1, 'udp': 2, 'rtp': 3, 'pim': 4, 'icmp': 5, 'arp': 6, 'ipx/spx': 7, 'rtcp': 8, 'igmp': 9,
                 'ipv6-icmp': 10, 'ipv6': 11, 'udt': 12, 'esp': 13, 'unas': 14, 'rarp': 15, 'gre': 16, 'llc': 17,
-                'rsvp': 18, 'ipnip': 19}
+                'rsvp': 18, 'ipnip': 19 , 'icmpv6' : 20}
 stateDict_0  = {'S_RA': 1, 'SR_A': 2, 'SR_SA': 3, 'SRPA_SPA': 4, 'RA_': 5, 'SRPA_FSPA': 6, 'FSRPA_FSPA': 7, 'FSA_FSA': 8, 'S_R': 9,
                 'SRA_SA': 10, 'CON': 11, 'FA_A': 12, 'FA_FA': 13, 'PA_PA': 14, 'FPA_FRPA': 15, 'FPA_RPA': 16, 'FSPA_FSPA': 17,
                 'PA_A': 18, 'FA_RA': 19, 'PA_FRA': 20, 'FRPA_FPA': 21, 'FPA_FA': 22, 'A_': 23, 'INT': 24, 'FA_': 25, 'S_SA': 26,
