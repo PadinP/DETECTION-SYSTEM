@@ -15,10 +15,10 @@ def start(args=None):
     print("8. Support Vector Machines")
     print("------------------------------------\n")
 
-    option = '7'  # input("Enter your option: ")
+    option = '6'  # input("Enter your option: ")
 
     print('Scenarios range from 0 to 13\n')
-    e = '0'  # input("Pick the scenery you want to use: ")
+    e = '1'  # input("Pick the scenery you want to use: ")
 
     if int(e) < 0 or int(e) > 13:
         print('Scenary is not valid, defaulting to 3...')
@@ -70,9 +70,9 @@ def start(args=None):
             print("Using Proactive Forest")
             print('Scenary: ' + e)
             model = fit_pf_process(esc=e)
-            # if model is not None:
-            #    x_clasf, y_clasf = classification_process(model, "./database-preprosesing/smote/"+e+"/minmax/"+e+".minmax_smote.pickle", 250, 1000)
-            #    component_process(x_clasf, y_clasf, model)
+            if model is not None:
+               x_clasf, y_clasf = classification_process(model, "./database-preprosesing/smote/"+e+"/minmax/"+e+".minmax_smote.pickle", 250, 1000)
+               component_process(x_clasf, y_clasf, model)
         case '7':
             # Random Forest
             print("Using Random Forest")
