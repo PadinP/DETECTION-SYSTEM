@@ -141,7 +141,7 @@ class BaseCentral:
         # Crear dataset final
         if self.df1_list:
             final_df = pd.concat(self.df1_list)
-            output_path = './database/15.binetflow'
+            output_path = './database/0.binetflow'
             
             # Escribir encabezado solo si el archivo no existe
             header = not Path(output_path).exists()
